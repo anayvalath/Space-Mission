@@ -66,8 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rcsThrust: 250
-  mainThrust: 25
-  backThrust: -65
+  mainThrust: 50
 --- !u!82 &363528921
 AudioSource:
   m_ObjectHideFlags: 0
