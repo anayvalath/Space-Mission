@@ -18,8 +18,8 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime,5f,5f);
-        transform.Translate(Input.GetAxis("Vertical")*Time.deltaTime,5f,5f);
+        transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime,0f,0f);
+        transform.Translate(Input.GetAxis("Vertical")*Time.deltaTime,0f,0f);
         Thrust();
         Rotate();
     }
